@@ -14,13 +14,13 @@
 		0122CFE818887C4F00979816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122CFE718887C4F00979816 /* main.m */; };
 		0122CFEC18887C4F00979816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122CFEB18887C4F00979816 /* AppDelegate.m */; };
 		0122CFEF18887C4F00979816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0122CFED18887C4F00979816 /* Main.storyboard */; };
-		0122CFF218887C4F00979816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122CFF118887C4F00979816 /* ViewController.m */; };
 		0122CFF418887C4F00979816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0122CFF318887C4F00979816 /* Images.xcassets */; };
 		0122CFFB18887C4F00979816 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122CFFA18887C4F00979816 /* XCTest.framework */; };
 		0122CFFC18887C4F00979816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122CFDB18887C4F00979816 /* Foundation.framework */; };
 		0122CFFD18887C4F00979816 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0122CFDF18887C4F00979816 /* UIKit.framework */; };
 		0122D00518887C4F00979816 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0122D00318887C4F00979816 /* InfoPlist.strings */; };
 		0122D00718887C4F00979816 /* PanGestureDeleteCellsTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122D00618887C4F00979816 /* PanGestureDeleteCellsTutorialTests.m */; };
+		0122D01218887F4100979816 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0122D01118887F4100979816 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		0122CFEA18887C4F00979816 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0122CFEB18887C4F00979816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0122CFEE18887C4F00979816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0122CFF018887C4F00979816 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0122CFF118887C4F00979816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0122CFF318887C4F00979816 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0122CFF918887C4F00979816 /* PanGestureDeleteCellsTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureDeleteCellsTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0122CFFA18887C4F00979816 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0122D00218887C4F00979816 /* PanGestureDeleteCellsTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanGestureDeleteCellsTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		0122D00418887C4F00979816 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0122D00618887C4F00979816 /* PanGestureDeleteCellsTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureDeleteCellsTutorialTests.m; sourceTree = "<group>"; };
+		0122D01018887F4100979816 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0122D01118887F4100979816 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				0122CFEA18887C4F00979816 /* AppDelegate.h */,
 				0122CFEB18887C4F00979816 /* AppDelegate.m */,
 				0122CFED18887C4F00979816 /* Main.storyboard */,
-				0122CFF018887C4F00979816 /* ViewController.h */,
-				0122CFF118887C4F00979816 /* ViewController.m */,
+				0122D01018887F4100979816 /* TableViewController.h */,
+				0122D01118887F4100979816 /* TableViewController.m */,
 				0122CFF318887C4F00979816 /* Images.xcassets */,
 				0122CFE218887C4F00979816 /* Supporting Files */,
 			);
@@ -249,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0122CFF218887C4F00979816 /* ViewController.m in Sources */,
 				0122CFEC18887C4F00979816 /* AppDelegate.m in Sources */,
+				0122D01218887F4100979816 /* TableViewController.m in Sources */,
 				0122CFE818887C4F00979816 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

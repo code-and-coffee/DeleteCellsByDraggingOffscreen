@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  PanGestureDeleteCellsTutorial
 //
 //  Created by Nick on 1/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end
